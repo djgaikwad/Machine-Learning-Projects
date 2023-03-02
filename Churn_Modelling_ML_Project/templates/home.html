@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h2 style="text-align: center;">My Bank</h2>
+
+    <form action="/pred" method="post">
+<center>
+    <table border="1px" style="width: 50%;" class="center table table-striped">
+        <tr>
+            <th>Credit Score :</th>
+            <td><input name="creditscore" type="text" required></td>
+        </tr>
+        <tr>
+            <th>Age :</th>
+            <td><input name="age" type="text" required></td>
+        </tr>
+        <tr>
+            <th>No. of Years as member :</th>
+            <td><input name="tenure" type="text" required></td>
+        </tr>
+        <tr>
+            <th>Account Balance :</th>
+            <td><input name="balance" type="text" required></td>
+        </tr>
+        <tr>
+            <th>No. Of Products purchased :</th>
+            <td><input name="products" type="text" required></td>
+        </tr>
+        <tr>
+            <th>Customer has Credit Card? :</th>
+            <td><select name="creditcard">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+                </select></td>
+        </tr>
+        <tr>
+            <th>Customer is active member? :</th>
+            <td><select name="active">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+                </select></td>
+        </tr>
+        <tr>
+            <th>Estimated Salary :</th>
+            <td><input name="salary" type="text" required></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="submit"></td>
+            <td><input type="reset" value="clear"></td>
+        </tr>
+    </table>
+    <h5 style="text-align: center;"> Note : Please fill all correct details for Prediction</h5>
+</center>
+</form>
+</body>
+
+</html>
