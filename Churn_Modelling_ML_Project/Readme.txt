@@ -2,7 +2,7 @@ Goal of project
 Using xgboosting from Supervised Machine Learning Algorithm to learn the data from churn_modelling.csv and predicting the client will left 
 the membership or not (yes=1 & No=0).
 Tools or language used :
-project is created using python 3. other modules used are sklearn, pandas, numpy,seaborn,matplotlib.
+project is created using python 3. other modules used are sklearn, pandas, numpy,seaborn,matplotlib, pickle and flask.
  
 working in front end :
 when a user enters the data of account holder in web application, data is sent to backend, predictions are done based on previoues learning 
