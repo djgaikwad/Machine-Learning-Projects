@@ -13,3 +13,4 @@ Working in back end:
   data is sliptted into training and testing data which are then fed to machine to learn and also calulate their accuracy.
   based on that a model is created to predict the values enter by the user in web application.
   web application is linked to python and html through flask.
+Note  : Please run the ipynb file before prediction on web page. 
